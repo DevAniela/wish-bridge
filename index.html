@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alice&family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet" />
+    <title>WishBridge</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo-container">
+          <img src="./public/wish-bridge-logo.svg" alt="wish bridge logo"></img>
+          <h1>WishBridge</h1>
+        </div>
+        <div class="choice-container">
+          <button class="btn btn-large btn-open wish-maker">make a wish</button>
+          <button id="grant-a-wish-button" class="btn btn-large btn-open wish-grantor">grant a wish</button>
+        </div>
+      </header>
+
+      <form class="wish-maker-form hidden">
+        <input type="text" placeholder="I wish... " />
+        <span>600</span>
+        <input type="text" placeholder="My address is... " />
+        
+        <button class="btn btn-large">send</button>
+      </form>     
+
+      <main class="main">
+        <aside>
+          <ul>
+            <li class="category">
+              <button class="btn btn-all-cat">ALL WISHES</button>
+            </li>
+            <li class="category">
+              <button class="btn btn-age">
+                0-3 years old
+              </button>
+            </li>
+            <li class="category">
+              <button class="btn btn-age">
+                4-6 years old
+              </button>
+            </li>
+            <li class="category">
+              <button class="btn btn-age">
+                7-9 years old
+              </button>
+            </li>
+            <li class="category">
+              <button class="btn btn-age">
+                10-12 years old
+              </button>
+            </li>
+            <li class="category">
+              <button class="btn btn-age">
+                13-15 years old
+              </button>
+            </li>
+            <li class="category">
+              <button class="btn btn-age">
+                16-18 years old
+              </button>
+
+          </ul>
+        </aside>
+
+        <section>
+          <ul class="wish-list">
+            <li class="wish">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <span class="category"
+                >13-15 years old</span
+              >
+              <div class="btn-actions">
+                <button class="btn-love">🤍 31</button>
+                <button class="btn-claim">⭐</button>
+              </div>
+            </li>
+            <li class="wish">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <span class="category"
+                >10-12 years old</span
+              >
+              <div class="btn-actions">
+                <button class="btn-love">🤍 31</button>
+                <button class="btn-claim">⭐</button>
+              </div>
+            </li>
+            <li class="wish">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <span class="category"
+                >10-12 years old</span
+              >
+              <div class="btn-actions">
+                <button class="btn-love">🤍 31</button>
+                <button class="btn-claim">⭐</button>
+              </div>
+            </li>
+            <li class="wish">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <span class="category"
+                >0-3 years old</span
+              >
+              <div class="btn-actions">
+                <button class="btn-love">🤍 31</button>
+                <button class="btn-claim">⭐</button>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

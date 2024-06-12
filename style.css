@@ -1,0 +1,155 @@
+/* Colors */
+:root {
+  --desert-sand: #eabca4;
+  --burnt-sienna: #e57b49;
+  --rust: #b74626;
+  --white-smoke: #f0f0ee;
+  --bone: #e9dfd3;
+  --eerie-black: #211d1a;
+  --old-rose: #d17c79;
+}
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: "Comfortaa", sans-serif;
+  background: url("/wish-bridge/public/jorge-franco-Vu--fGpD5hs-unsplash-cropped.jpg")
+    no-repeat right center fixed;
+  background-size: cover;
+  color: var(--white-smoke);
+}
+
+.container {
+  background: transparent;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Header Styles */
+
+.btn,
+.wish p,
+.wish {
+  color: var(--white-smoke);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  max-width: 80px;
+  margin-right: 15px;
+}
+
+.logo-container h1 {
+  font-family: "Alice", serif;
+  font-size: 3rem;
+  color: var(--bone);
+}
+
+.choice-container {
+  display: flex;
+  gap: 20px;
+}
+
+/* Main Content Styles */
+
+.main {
+  display: flex;
+}
+
+aside {
+  flex: 1;
+  margin-right: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Button Styles */
+
+.btn {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 1.5rem;
+  padding: 15px 30px;
+  border: 0.1px solid var(--desert-sand);
+  color: var(--white-smoke);
+  background-color: var(--burnt-sienna);
+  cursor: pointer;
+  border-radius: 50px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--rust);
+}
+
+.category button {
+  width: 160px;
+  padding: 15px;
+  font-size: 1rem;
+  background-color: var(--burnt-sienna);
+  border: 0.1px solid var(--desert-sand);
+  color: var(--white-smoke);
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.btn-actions {
+  margin-top: 10px;
+}
+
+/* Form Styles */
+
+.hidden {
+  display: none !important;
+}
+
+.wish-maker-form {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background-color: var(--bone);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.wish-maker-form input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid var(--desert-sand);
+  border-radius: 5px;
+}
+
+.wish-maker-form button {
+  background-color: var(--old-rose);
+  background-color: var(--bone);
+}
+
+.wish-maker-form button:hover {
+  background-color: var(--burnt-sienna);
+}
+
+/* Wishes Section */
+
+.wish-list .wish {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: var(--bone);
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
