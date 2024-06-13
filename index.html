@@ -25,6 +25,19 @@
         <div class="choice-container">
           <button class="btn btn-large btn-open wish-maker">make a wish</button>
           <button id="grant-a-wish-button" class="btn btn-large btn-open wish-grantor">grant a wish</button>
+
+          <div class="dropdown">
+            <button class="dropbtn">select age group</button>
+            <div class="dropdown-content">
+              <a href="#" class="btn-age">0-3 years old</a>
+              <a href="#" class="btn-age">4-6 years old</a>
+              <a href="#" class="btn-age">7-9 years old</a>
+              <a href="#" class="btn-age">10-12 years old</a>
+              <a href="#" class="btn-age">13-15 years old</a>
+              <a href="#" class="btn-age">16-18 years old</a>
+            </div>
+
+          </div>
         </div>
       </header>
 
@@ -36,49 +49,13 @@
         <button class="btn btn-large">send</button>
       </form>     
 
-      <main class="main">
-        <aside>
-          <ul>
-            <li class="category">
-              <button class="btn btn-all-cat">ALL WISHES</button>
-            </li>
-            <li class="category">
-              <button class="btn btn-age">
-                0-3 years old
-              </button>
-            </li>
-            <li class="category">
-              <button class="btn btn-age">
-                4-6 years old
-              </button>
-            </li>
-            <li class="category">
-              <button class="btn btn-age">
-                7-9 years old
-              </button>
-            </li>
-            <li class="category">
-              <button class="btn btn-age">
-                10-12 years old
-              </button>
-            </li>
-            <li class="category">
-              <button class="btn btn-age">
-                13-15 years old
-              </button>
-            </li>
-            <li class="category">
-              <button class="btn btn-age">
-                16-18 years old
-              </button>
-
-          </ul>
-        </aside>
+      <main class="main">     
 
         <section>
           <ul class="wish-list">
             <li class="wish">
-              <p>
+              <img src="/wish-bridge/public/sample-letter-1.jpg" alt="Handwritten letter" class="wish-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'";/>
+              <p class="wish-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
               <span class="category"
@@ -86,43 +63,49 @@
               >
               <div class="btn-actions">
                 <button class="btn-love">🤍 31</button>
-                <button class="btn-claim">⭐</button>
+                <button class="btn-claim">⭐claim wish ✨</button>
+                <button class="btn-toggle-text">show text</button>
               </div>
             </li>
             <li class="wish">
-              <p>
+              <img src="/wish-bridge/public/sample-letter-2.jpg" alt="Handwritten letter" class="wish-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'";/>
+              <p class="wish-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
               <span class="category"
-                >10-12 years old</span
+                >13-15 years old</span
               >
               <div class="btn-actions">
                 <button class="btn-love">🤍 31</button>
-                <button class="btn-claim">⭐</button>
+                <button class="btn-claim">⭐claim wish ✨</button>
+                <button class="btn-toggle-text">show text</button>
+              </div>
+            </li>            <li class="wish">
+              <img src="/wish-bridge/public/sample-letter-3.jpg" alt="Handwritten letter" class="wish-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'";/>
+              <p class="wish-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <span class="category"
+                >13-15 years old</span
+              >
+              <div class="btn-actions">
+                <button class="btn-love">🤍 31</button>
+                <button class="btn-claim">⭐claim wish ✨</button>
+                <button class="btn-toggle-text">show text</button>
               </div>
             </li>
             <li class="wish">
-              <p>
+              <img src="/wish-bridge/public/sample-letter-4.jpg" alt="Handwritten letter" class="wish-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'";/>
+              <p class="wish-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
               <span class="category"
-                >10-12 years old</span
+                >13-15 years old</span
               >
               <div class="btn-actions">
                 <button class="btn-love">🤍 31</button>
-                <button class="btn-claim">⭐</button>
-              </div>
-            </li>
-            <li class="wish">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <span class="category"
-                >0-3 years old</span
-              >
-              <div class="btn-actions">
-                <button class="btn-love">🤍 31</button>
-                <button class="btn-claim">⭐</button>
+                <button class="btn-claim">⭐claim wish ✨</button>
+                <button class="btn-toggle-text">show text</button>
               </div>
             </li>
           </ul>

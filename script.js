@@ -1,4 +1,18 @@
 document.addEventListener("DOMContentLoaded", () => {
+  // Add event listener to show text button
+  document.querySelectorAll("btn-toggle-text").forEach((button) => {
+    button.addEventListener("click", function () {
+      const wishText = this.closest(".wish").querySelector(".wish-text");
+      if (wishText.style.display === "none" || !wishText.style.display) {
+        wishText.style.display = "block";
+        this.textContent = "hide text";
+      } else {
+        wishText.style.display = "none";
+        this.textContent = "show text";
+      }
+    });
+  });
+
   // Select all love and claim buttons
   const loveButtons = document.querySelectorAll(".btn-love");
   const claimButtons = document.querySelectorAll(".btn-claim");
@@ -31,8 +45,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const wishText = wishItem.querySelector("p");
 
       // Add the [CLAIMED] flag if not already present
-      if (!wishText.textContent.startsWith("[CLAIMED]")) {
-        wishText.textContent = "[CLAIMED] " + wishText.textContent;
+      if (!wishText.textContent.startsWith("[⭐ CLAIMED ✨]")) {
+        wishText.textContent = "[⭐ CLAIMED ✨] " + wishText.textContent;
         promptUserToGrantWish();
       }
     });
